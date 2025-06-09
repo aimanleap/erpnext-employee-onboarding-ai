@@ -23,20 +23,35 @@ A custom ERPNext app that automates employee onboarding using AI-powered feature
 
 ##  Project Structure
 employee_onboarding/
+
 ├── employee_onboarding/
+
 │   ├── hooks.py
+
 │   ├── modules.txt
+
 │   ├── public/
+
 │   │   └── js/
+
 │   │       └── ai_integration.js
+
 │   ├── doctype/
+
 │   │   └── employee_onboarding_tracker/
+
 │   │       ├── *.py, *.json, *.js
+
 │   ├── api/
+
 │   │   └── ai.py
+
 │   └── ...
+
 ├── README.md
+
 ├── requirements.txt
+
 └── setup.py
 
 
